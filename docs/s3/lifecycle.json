@@ -1,0 +1,9 @@
+{
+  "Rules": [{
+    "ID": "ExpireUnconfirmedTradeImageUploads",
+    "Status": "Enabled",
+    "Filter": {"Prefix": "trade-images/staging/"},
+    "Expiration": {"Days": 1},
+    "AbortIncompleteMultipartUpload": {"DaysAfterInitiation": 1}
+  }]
+}

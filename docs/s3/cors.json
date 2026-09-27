@@ -1,0 +1,9 @@
+{
+  "CORSRules": [{
+    "AllowedOrigins": ["https://localhost:7150"],
+    "AllowedMethods": ["PUT", "GET", "HEAD"],
+    "AllowedHeaders": ["content-type", "content-length", "x-amz-meta-upload-id"],
+    "ExposeHeaders": ["ETag"],
+    "MaxAgeSeconds": 300
+  }]
+}
